@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smetka.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4d0a0174fad875440d9e3c2410831badfecca3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87e5694f7bd9f67322339df7127d6f002e24605e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smetka.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smetka.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Data\\Smetka.Data.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Core\\Smetka.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Data\\Smetka.Data.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Core\\Smetka.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Data\\Smetka.Data.csproj",
-        "projectName": "Smetka.Data",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Data\\Smetka.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Core\\Smetka.Core.csproj",
+        "projectName": "Smetka.Core",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Core\\Smetka.Core.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Data\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,22 +45,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

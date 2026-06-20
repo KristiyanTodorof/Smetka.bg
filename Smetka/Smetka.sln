@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smetka.Data", "Smetka.Data\Smetka.Data.csproj", "{79CAA65C-4C09-4090-B786-6491AD5A2F52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smetka.Data", "Smetka.Data\Smetka.Data.csproj", "{79CAA65C-4C09-4090-B786-6491AD5A2F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smetka.Core", "Smetka.Core\Smetka.Core.csproj", "{FFA5EA5C-F169-4F3E-9E35-97F37C3D2A59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{79CAA65C-4C09-4090-B786-6491AD5A2F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79CAA65C-4C09-4090-B786-6491AD5A2F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79CAA65C-4C09-4090-B786-6491AD5A2F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA5EA5C-F169-4F3E-9E35-97F37C3D2A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA5EA5C-F169-4F3E-9E35-97F37C3D2A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA5EA5C-F169-4F3E-9E35-97F37C3D2A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA5EA5C-F169-4F3E-9E35-97F37C3D2A59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

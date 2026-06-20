@@ -54,8 +54,7 @@
               "RelativeToolTip": "Smetka.Data\\Entities\\ChatMessage.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T13:50:29.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T13:50:29.253Z"
             },
             {
               "$type": "Document",
@@ -65,7 +64,7 @@
               "RelativeDocumentMoniker": "Smetka.Data\\Entities\\Bill.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Data\\Entities\\Bill.cs",
               "RelativeToolTip": "Smetka.Data\\Entities\\Bill.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-20T13:49:54.118Z",
               "EditorCaption": ""
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Smetka.Data\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T13:49:32.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T13:49:32.914Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Smetka.Data\\BaseEntities\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T13:48:53.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-20T13:48:53.283Z"
             }
           ]
         }

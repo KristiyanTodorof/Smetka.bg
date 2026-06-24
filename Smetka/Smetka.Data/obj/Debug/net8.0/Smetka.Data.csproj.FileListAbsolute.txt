@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\bin\Debug\net8.0\Smetka.Data.deps.json
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\bin\Debug\net8.0\Smetka.Data.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\bin\Debug\net8.0\Smetka.Data.dll
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\bin\Debug\net8.0\Smetka.Data.pdb
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\obj\Debug\net8.0\Smetka.Data.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\obj\Debug\net8.0\Smetka.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\obj\Debug\net8.0\Smetka.Data.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\obj\Debug\net8.0\Smetka.Data.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\obj\Debug\net8.0\Smetka.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\obj\Debug\net8.0\Smetka.Data.sourcelink.json
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\obj\Debug\net8.0\Smetka.Data.dll
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\obj\Debug\net8.0\refint\Smetka.Data.dll
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\obj\Debug\net8.0\Smetka.Data.pdb
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\obj\Debug\net8.0\Smetka.Data.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Data\obj\Debug\net8.0\ref\Smetka.Data.dll

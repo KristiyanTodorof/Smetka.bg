@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\bin\Debug\net8.0\Smetka.Core.deps.json
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\bin\Debug\net8.0\Smetka.Core.dll
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\bin\Debug\net8.0\Smetka.Core.pdb
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\bin\Debug\net8.0\Smetka.Data.dll
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\bin\Debug\net8.0\Smetka.Data.pdb
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\obj\Debug\net8.0\Smetka.Core.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\obj\Debug\net8.0\Smetka.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\obj\Debug\net8.0\Smetka.Core.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\obj\Debug\net8.0\Smetka.Core.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\obj\Debug\net8.0\Smetka.Core.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\obj\Debug\net8.0\Smetka.Core.sourcelink.json
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\obj\Debug\net8.0\Smetka.C.F6B1D11B.Up2Date
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\obj\Debug\net8.0\Smetka.Core.dll
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\obj\Debug\net8.0\refint\Smetka.Core.dll
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\obj\Debug\net8.0\Smetka.Core.pdb
+C:\Users\Admin\Documents\GitHub\Smetka.bg\Smetka\Smetka.Core\obj\Debug\net8.0\ref\Smetka.Core.dll

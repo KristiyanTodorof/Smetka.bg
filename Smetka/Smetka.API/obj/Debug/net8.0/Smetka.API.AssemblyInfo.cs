@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smetka.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4b3a1e06689ea512bbfa534791728ade4493757")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee4a79025cac295605b28ec6074b7ace40907a76")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smetka.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smetka.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

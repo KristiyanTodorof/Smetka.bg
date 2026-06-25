@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smetka.Data", "Smetka.Data\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smetka.Core", "Smetka.Core\Smetka.Core.csproj", "{FFA5EA5C-F169-4F3E-9E35-97F37C3D2A59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smetka.Infrastructure", "Smetka.Infrastructure\Smetka.Infrastructure.csproj", "{D7616346-5BC3-41E4-B2E6-29F98DD2144D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smetka.Infrastructure", "Smetka.Infrastructure\Smetka.Infrastructure.csproj", "{D7616346-5BC3-41E4-B2E6-29F98DD2144D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smetka.API", "Smetka.API\Smetka.API.csproj", "{36CC3244-B262-4C0B-86AD-942A67B77AA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smetka.API", "Smetka.API\Smetka.API.csproj", "{36CC3244-B262-4C0B-86AD-942A67B77AA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

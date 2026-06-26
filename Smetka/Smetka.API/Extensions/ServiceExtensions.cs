@@ -20,7 +20,7 @@ public static class ServiceExtensions
         IConfiguration config)
     {
         services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer(config.GetConnectionString("Default")));
+            options.UseNpgsql(config.GetConnectionString("Default")));
 
         return services;
     }

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|solutionrelative:smetka.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7616346-5BC3-41E4-B2E6-29F98DD2144D}|Smetka.Infrastructure\\Smetka.Infrastructure.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.infrastructure\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7616346-5BC3-41E4-B2E6-29F98DD2144D}|Smetka.Infrastructure\\Smetka.Infrastructure.csproj|solutionrelative:smetka.infrastructure\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|solutionrelative:smetka.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -15,16 +23,8 @@
       "RelativeMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|solutionrelative:smetka.api\\services\\billservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7616346-5BC3-41E4-B2E6-29F98DD2144D}|Smetka.Infrastructure\\Smetka.Infrastructure.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.infrastructure\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7616346-5BC3-41E4-B2E6-29F98DD2144D}|Smetka.Infrastructure\\Smetka.Infrastructure.csproj|solutionrelative:smetka.infrastructure\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7616346-5BC3-41E4-B2E6-29F98DD2144D}|Smetka.Infrastructure\\Smetka.Infrastructure.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7616346-5BC3-41E4-B2E6-29F98DD2144D}|Smetka.Infrastructure\\Smetka.Infrastructure.csproj|solutionrelative:smetka.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|solutionrelative:smetka.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -125,10 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{79CAA65C-4C09-4090-B786-6491AD5A2F52}|Smetka.Data\\Smetka.Data.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.data\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79CAA65C-4C09-4090-B786-6491AD5A2F52}|Smetka.Data\\Smetka.Data.csproj|solutionrelative:smetka.data\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7616346-5BC3-41E4-B2E6-29F98DD2144D}|Smetka.Infrastructure\\Smetka.Infrastructure.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.infrastructure\\migrations\\20260625084100_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7616346-5BC3-41E4-B2E6-29F98DD2144D}|Smetka.Infrastructure\\Smetka.Infrastructure.csproj|solutionrelative:smetka.infrastructure\\migrations\\20260625084100_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -158,20 +154,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Smetka.API\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\appsettings.Development.json",
               "RelativeToolTip": "Smetka.API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-26T12:21:13.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Program.cs",
+              "RelativeDocumentMoniker": "Smetka.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Program.cs",
+              "RelativeToolTip": "Smetka.API\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIBZwBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T10:20:37.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Smetka.API\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Smetka.API\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T10:19:36.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Smetka.API\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Smetka.API\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T10:15:00.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BillsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Controllers\\BillsController.cs",
+              "RelativeDocumentMoniker": "Smetka.API\\Controllers\\BillsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Controllers\\BillsController.cs",
+              "RelativeToolTip": "Smetka.API\\Controllers\\BillsController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T10:12:47.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Smetka.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "Smetka.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwBIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T08:38:03.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\appsettings.json",
               "RelativeDocumentMoniker": "Smetka.API\\appsettings.json",
@@ -184,54 +245,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Program.cs",
-              "RelativeDocumentMoniker": "Smetka.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Program.cs",
-              "RelativeToolTip": "Smetka.API\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAIBJwBsAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:20:37.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "Smetka.API\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "Smetka.API\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:19:36.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "Smetka.API\\Controllers\\ChatController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "Smetka.API\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:15:00.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BillsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Controllers\\BillsController.cs",
-              "RelativeDocumentMoniker": "Smetka.API\\Controllers\\BillsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Controllers\\BillsController.cs",
-              "RelativeToolTip": "Smetka.API\\Controllers\\BillsController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowBcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:12:47.654Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Smetka.API.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Smetka.API.csproj",
@@ -240,11 +253,12 @@
               "RelativeToolTip": "Smetka.API\\Smetka.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-24T10:09:10.452Z"
+              "WhenOpened": "2026-06-24T10:09:10.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Smetka.Infrastructure\\Data\\AppDbContext.cs",
@@ -252,11 +266,12 @@
               "RelativeToolTip": "Smetka.Infrastructure\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAwwE0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T08:16:38.795Z"
+              "WhenOpened": "2026-06-24T08:16:38.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BillService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Services\\BillService.cs",
               "RelativeDocumentMoniker": "Smetka.API\\Services\\BillService.cs",
@@ -269,30 +284,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "20260625084100_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Migrations\\20260625084100_Initial.cs",
-              "RelativeDocumentMoniker": "Smetka.Infrastructure\\Migrations\\20260625084100_Initial.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Migrations\\20260625084100_Initial.cs",
-              "RelativeToolTip": "Smetka.Infrastructure\\Migrations\\20260625084100_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T08:41:00.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DesignTimeDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
-              "RelativeDocumentMoniker": "Smetka.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
-              "RelativeToolTip": "Smetka.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAvwA0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T08:38:03.408Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Middleware\\ExceptionMiddleware.cs",
@@ -301,7 +292,8 @@
               "RelativeToolTip": "Smetka.API\\Middleware\\ExceptionMiddleware.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAgwDUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:17:09.662Z"
+              "WhenOpened": "2026-06-24T10:17:09.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -313,7 +305,8 @@
               "RelativeToolTip": "Smetka.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAvwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:09:30.843Z"
+              "WhenOpened": "2026-06-24T10:09:30.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -325,7 +318,8 @@
               "RelativeToolTip": "Smetka.API\\Services\\ChatService.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwCQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T10:02:21.986Z"
+              "WhenOpened": "2026-06-24T10:02:21.986Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -337,7 +331,8 @@
               "RelativeToolTip": "Smetka.API\\Services\\AuthService.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:58:29.744Z"
+              "WhenOpened": "2026-06-24T09:58:29.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -349,7 +344,8 @@
               "RelativeToolTip": "Smetka.API\\DTOs\\Chat\\ChatRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:53:41.592Z"
+              "WhenOpened": "2026-06-24T09:53:41.592Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -361,7 +357,8 @@
               "RelativeToolTip": "Smetka.API\\DTOs\\Bill\\BillSummaryResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:53:04.365Z"
+              "WhenOpened": "2026-06-24T09:53:04.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -373,7 +370,8 @@
               "RelativeToolTip": "Smetka.API\\DTOs\\Bill\\BillResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:52:38.224Z"
+              "WhenOpened": "2026-06-24T09:52:38.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -385,7 +383,8 @@
               "RelativeToolTip": "Smetka.API\\DTOs\\Bill\\CreateBillRequest.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAIwBkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:52:07.136Z"
+              "WhenOpened": "2026-06-24T09:52:07.136Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -397,7 +396,8 @@
               "RelativeToolTip": "Smetka.API\\DTOs\\Auth\\AuthResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:50:59.828Z"
+              "WhenOpened": "2026-06-24T09:50:59.828Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -409,7 +409,8 @@
               "RelativeToolTip": "Smetka.API\\DTOs\\Auth\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:50:36.022Z"
+              "WhenOpened": "2026-06-24T09:50:36.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -419,9 +420,10 @@
               "RelativeDocumentMoniker": "Smetka.Core\\Interfaces\\IRepository.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Core\\Interfaces\\IRepository.cs",
               "RelativeToolTip": "Smetka.Core\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T14:08:02.98Z"
+              "WhenOpened": "2026-06-20T14:08:02.98Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -431,9 +433,10 @@
               "RelativeDocumentMoniker": "Smetka.Core\\Interfaces\\IUnitOfWork.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Core\\Interfaces\\IUnitOfWork.cs",
               "RelativeToolTip": "Smetka.Core\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T14:08:54.817Z"
+              "WhenOpened": "2026-06-20T14:08:54.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -445,7 +448,8 @@
               "RelativeToolTip": "Smetka.API\\DTOs\\Chat\\ChatResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:54:02.18Z"
+              "WhenOpened": "2026-06-24T09:54:02.18Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -457,7 +461,8 @@
               "RelativeToolTip": "Smetka.API\\DTOs\\Chat\\ChatHistoryItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:54:19.332Z"
+              "WhenOpened": "2026-06-24T09:54:19.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -469,7 +474,8 @@
               "RelativeToolTip": "Smetka.API\\DTOs\\Auth\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T09:49:56.508Z"
+              "WhenOpened": "2026-06-24T09:49:56.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -481,7 +487,8 @@
               "RelativeToolTip": "Smetka.Infrastructure\\Repositories\\UnitOfWork.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T08:18:12.472Z"
+              "WhenOpened": "2026-06-24T08:18:12.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -493,7 +500,8 @@
               "RelativeToolTip": "Smetka.Infrastructure\\Repositories\\GenericRepository.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAuwAoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T08:17:33.139Z"
+              "WhenOpened": "2026-06-24T08:17:33.139Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -505,7 +513,8 @@
               "RelativeToolTip": "Smetka.Data\\Entities\\ChatMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T13:50:29.253Z"
+              "WhenOpened": "2026-06-20T13:50:29.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -517,7 +526,8 @@
               "RelativeToolTip": "Smetka.Data\\Entities\\Bill.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwBsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T13:49:54.118Z"
+              "WhenOpened": "2026-06-20T13:49:54.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -529,7 +539,8 @@
               "RelativeToolTip": "Smetka.Data\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T13:49:32.914Z"
+              "WhenOpened": "2026-06-20T13:49:32.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -541,7 +552,8 @@
               "RelativeToolTip": "Smetka.Data\\BaseEntities\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-20T13:48:53.283Z"
+              "WhenOpened": "2026-06-20T13:48:53.283Z",
+              "EditorCaption": ""
             }
           ]
         }

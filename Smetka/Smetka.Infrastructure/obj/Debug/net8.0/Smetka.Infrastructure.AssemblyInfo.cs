@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Smetka.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee4a79025cac295605b28ec6074b7ace40907a76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9f00e22a4dc6c8d83217f6bb34a6510732412bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Smetka.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Smetka.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

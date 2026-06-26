@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|solutionrelative:smetka.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Migrations\\20260626212114_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Smetka.Infrastructure\\Migrations\\20260626212114_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|solutionrelative:smetka.api\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D7616346-5BC3-41E4-B2E6-29F98DD2144D}|Smetka.Infrastructure\\Smetka.Infrastructure.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7616346-5BC3-41E4-B2E6-29F98DD2144D}|Smetka.Infrastructure\\Smetka.Infrastructure.csproj|solutionrelative:smetka.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|solutionrelative:smetka.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36CC3244-B262-4C0B-86AD-942A67B77AA9}|Smetka.API\\Smetka.API.csproj|c:\\users\\admin\\documents\\github\\smetka.bg\\smetka\\smetka.api\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -154,7 +158,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "20260626212114_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Migrations\\20260626212114_Initial.cs",
+              "RelativeDocumentMoniker": "Smetka.Infrastructure\\Migrations\\20260626212114_Initial.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Migrations\\20260626212114_Initial.cs",
+              "RelativeToolTip": "Smetka.Infrastructure\\Migrations\\20260626212114_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T21:21:15.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Smetka.API\\appsettings.Development.json",
@@ -167,20 +184,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Program.cs",
               "RelativeDocumentMoniker": "Smetka.API\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Program.cs",
               "RelativeToolTip": "Smetka.API\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAIBZwBsAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-24T10:20:37.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Extensions\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "Smetka.API\\Extensions\\ServiceExtensions.cs",
@@ -193,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ChatController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Controllers\\ChatController.cs",
               "RelativeDocumentMoniker": "Smetka.API\\Controllers\\ChatController.cs",
@@ -206,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "BillsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Controllers\\BillsController.cs",
               "RelativeDocumentMoniker": "Smetka.API\\Controllers\\BillsController.cs",
@@ -219,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DesignTimeDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
               "RelativeDocumentMoniker": "Smetka.Infrastructure\\Data\\DesignTimeDbContextFactory.cs",
@@ -232,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\appsettings.json",
               "RelativeDocumentMoniker": "Smetka.API\\appsettings.json",
@@ -245,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Smetka.API.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Smetka.API.csproj",
               "RelativeDocumentMoniker": "Smetka.API\\Smetka.API.csproj",
@@ -258,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Smetka.Infrastructure\\Data\\AppDbContext.cs",
@@ -271,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BillService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Services\\BillService.cs",
               "RelativeDocumentMoniker": "Smetka.API\\Services\\BillService.cs",
@@ -284,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Middleware\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "Smetka.API\\Middleware\\ExceptionMiddleware.cs",
@@ -297,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Smetka.API\\Controllers\\AuthController.cs",
@@ -310,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ChatService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Services\\ChatService.cs",
               "RelativeDocumentMoniker": "Smetka.API\\Services\\ChatService.cs",
@@ -323,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Smetka.API\\Services\\AuthService.cs",
@@ -336,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ChatRequest.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\DTOs\\Chat\\ChatRequest.cs",
               "RelativeDocumentMoniker": "Smetka.API\\DTOs\\Chat\\ChatRequest.cs",
@@ -349,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "BillSummaryResponse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\DTOs\\Bill\\BillSummaryResponse.cs",
               "RelativeDocumentMoniker": "Smetka.API\\DTOs\\Bill\\BillSummaryResponse.cs",
@@ -362,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "BillResponse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\DTOs\\Bill\\BillResponse.cs",
               "RelativeDocumentMoniker": "Smetka.API\\DTOs\\Bill\\BillResponse.cs",
@@ -375,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CreateBillRequest.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\DTOs\\Bill\\CreateBillRequest.cs",
               "RelativeDocumentMoniker": "Smetka.API\\DTOs\\Bill\\CreateBillRequest.cs",
@@ -388,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "AuthResponse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\DTOs\\Auth\\AuthResponse.cs",
               "RelativeDocumentMoniker": "Smetka.API\\DTOs\\Auth\\AuthResponse.cs",
@@ -401,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\DTOs\\Auth\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Smetka.API\\DTOs\\Auth\\LoginRequest.cs",
@@ -414,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Core\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "Smetka.Core\\Interfaces\\IRepository.cs",
@@ -427,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Core\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Smetka.Core\\Interfaces\\IUnitOfWork.cs",
@@ -440,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ChatResponse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\DTOs\\Chat\\ChatResponse.cs",
               "RelativeDocumentMoniker": "Smetka.API\\DTOs\\Chat\\ChatResponse.cs",
@@ -453,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ChatHistoryItem.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\DTOs\\Chat\\ChatHistoryItem.cs",
               "RelativeDocumentMoniker": "Smetka.API\\DTOs\\Chat\\ChatHistoryItem.cs",
@@ -466,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.API\\DTOs\\Auth\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "Smetka.API\\DTOs\\Auth\\RegisterRequest.cs",
@@ -479,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Repositories\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Smetka.Infrastructure\\Repositories\\UnitOfWork.cs",
@@ -492,7 +509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Infrastructure\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Smetka.Infrastructure\\Repositories\\GenericRepository.cs",
@@ -505,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ChatMessage.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Data\\Entities\\ChatMessage.cs",
               "RelativeDocumentMoniker": "Smetka.Data\\Entities\\ChatMessage.cs",
@@ -518,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Bill.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Data\\Entities\\Bill.cs",
               "RelativeDocumentMoniker": "Smetka.Data\\Entities\\Bill.cs",
@@ -531,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Data\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Smetka.Data\\Entities\\User.cs",
@@ -544,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Smetka.bg\\Smetka\\Smetka.Data\\BaseEntities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Smetka.Data\\BaseEntities\\BaseEntity.cs",

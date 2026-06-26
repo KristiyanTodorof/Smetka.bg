@@ -89,7 +89,10 @@ public static class ServiceExtensions
     {
         services.AddCors(options =>
             options.AddPolicy("ReactApp", policy => policy
-                .WithOrigins("http://localhost:5173")
+                .WithOrigins(
+                   "http://localhost:5173",
+                   "https://smetka-bg.vercel.app"
+)
                 .AllowAnyHeader()
                 .AllowAnyMethod()));
 

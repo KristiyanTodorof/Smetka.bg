@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Smetka.API.props" />
-</Project>

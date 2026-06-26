@@ -1,0 +1,8 @@
+[build]
+builder = "railpack"
+
+[build.railpack]
+buildCommand = "dotnet publish Smetka.API/Smetka.API.csproj -c Release -o out"
+
+[deploy]
+startCommand = "dotnet out/Smetka.API.dll"

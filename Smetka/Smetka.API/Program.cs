@@ -20,6 +20,8 @@ builder.Services
 // ── Build ─────────────────────────────────────────────────────────────────────
 var app = builder.Build();
 
+app.UseCors("ReactApp");
+
 // ── Middleware Pipeline ───────────────────────────────────────────────────────
 app.UseMiddleware<ExceptionMiddleware>();
 
@@ -29,7 +31,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("ReactApp");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

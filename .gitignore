@@ -50,3 +50,17 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# ASP.NET
+**/bin/
+**/obj/
+appsettings.json
+appsettings.Development.json
+
+# React
+smetka-client/node_modules/
+smetka-client/dist/
+
+# Visual Studio
+.vs/
+*.user

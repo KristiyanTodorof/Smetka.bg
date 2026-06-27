@@ -4,15 +4,14 @@ import { authApi } from '../api/client'
 
 export default function Register() {
   const navigate = useNavigate()
-  const [form, setForm]       = useState({ name: '', email: '', password: '' })
-  const [error, setError]     = useState('')
+  const [form, setForm] = useState({ name: '', email: '', password: '' })
+  const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
 
   const handleSubmit = async (e) => {
     e.preventDefault()
     setError('')
     setLoading(true)
-
     try {
       const { data } = await authApi.register(form)
       localStorage.setItem('token', data.token)
@@ -26,67 +25,83 @@ export default function Register() {
   }
 
   return (
-    <div style={styles.page}>
-      <div style={styles.card}>
-        <h1 style={styles.logo}>⚡ Сметки.bg</h1>
-        <h2 style={styles.title}>Регистрация</h2>
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 flex items-center justify-center p-4">
+      <div className="w-full max-w-md">
 
-        {error && <div style={styles.error}>{error}</div>}
+        {/* Лого */}
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-2xl mb-4 shadow-lg">
+            <span className="text-3xl">⚡</span>
+          </div>
+          <h1 className="text-3xl font-bold text-white">Сметки.bg</h1>
+          <p className="text-slate-400 mt-2">Анализирай комуналните си разходи с AI</p>
+        </div>
 
-        <form onSubmit={handleSubmit} style={styles.form}>
-          <label style={styles.label}>Име</label>
-          <input
-            style={styles.input}
-            type="text"
-            value={form.name}
-            onChange={e => setForm({ ...form, name: e.target.value })}
-            placeholder="Иван Иванов"
-            required
-          />
+        {/* Карта */}
+        <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 shadow-2xl">
+          <h2 className="text-xl font-semibold text-white mb-6">Създай акаунт</h2>
 
-          <label style={styles.label}>Имейл</label>
-          <input
-            style={styles.input}
-            type="email"
-            value={form.email}
-            onChange={e => setForm({ ...form, email: e.target.value })}
-            placeholder="ivan@example.com"
-            required
-          />
+          {error && (
+            <div className="bg-red-500/10 border border-red-500/20 text-red-400 rounded-xl p-4 mb-6 text-sm">
+              {error}
+            </div>
+          )}
 
-          <label style={styles.label}>Парола</label>
-          <input
-            style={styles.input}
-            type="password"
-            value={form.password}
-            onChange={e => setForm({ ...form, password: e.target.value })}
-            placeholder="Минимум 6 символа"
-            minLength={6}
-            required
-          />
+          <form onSubmit={handleSubmit} className="space-y-5">
+            <div>
+              <label className="block text-sm font-medium text-slate-300 mb-2">Пълно име</label>
+              <input
+                type="text"
+                value={form.name}
+                onChange={e => setForm({ ...form, name: e.target.value })}
+                placeholder="Иван Иванов"
+                required
+                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+              />
+            </div>
 
-          <button style={styles.btn} type="submit" disabled={loading}>
-            {loading ? 'Регистриране...' : 'Регистрация'}
-          </button>
-        </form>
+            <div>
+              <label className="block text-sm font-medium text-slate-300 mb-2">Имейл адрес</label>
+              <input
+                type="email"
+                value={form.email}
+                onChange={e => setForm({ ...form, email: e.target.value })}
+                placeholder="ivan@example.com"
+                required
+                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+              />
+            </div>
 
-        <p style={styles.footer}>
-          Вече имаш акаунт? <Link to="/login">Вход</Link>
-        </p>
+            <div>
+              <label className="block text-sm font-medium text-slate-300 mb-2">Парола</label>
+              <input
+                type="password"
+                value={form.password}
+                onChange={e => setForm({ ...form, password: e.target.value })}
+                placeholder="Минимум 6 символа"
+                minLength={6}
+                required
+                className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition"
+              />
+            </div>
+
+            <button
+              type="submit"
+              disabled={loading}
+              className="w-full bg-blue-600 hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold py-3 rounded-xl transition-all duration-200 shadow-lg shadow-blue-500/25 mt-2"
+            >
+              {loading ? 'Регистриране...' : 'Създай акаунт'}
+            </button>
+          </form>
+
+          <p className="text-center text-slate-400 text-sm mt-6">
+            Вече имаш акаунт?{' '}
+            <Link to="/login" className="text-blue-400 hover:text-blue-300 font-medium transition">
+              Вход
+            </Link>
+          </p>
+        </div>
       </div>
     </div>
   )
-}
-
-const styles = {
-  page:   { minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#f5f5f5' },
-  card:   { background: '#fff', padding: '2rem', borderRadius: '12px', width: '100%', maxWidth: '400px', boxShadow: '0 2px 12px rgba(0,0,0,0.1)' },
-  logo:   { textAlign: 'center', fontSize: '1.5rem', marginBottom: '0.5rem' },
-  title:  { textAlign: 'center', marginBottom: '1.5rem', color: '#333' },
-  form:   { display: 'flex', flexDirection: 'column', gap: '0.75rem' },
-  label:  { fontSize: '0.875rem', fontWeight: 500, color: '#555' },
-  input:  { padding: '0.625rem', borderRadius: '8px', border: '1px solid #ddd', fontSize: '1rem', outline: 'none' },
-  btn:    { padding: '0.75rem', borderRadius: '8px', background: '#185FA5', color: '#fff', border: 'none', fontSize: '1rem', cursor: 'pointer', marginTop: '0.5rem' },
-  error:  { background: '#FCEBEB', color: '#A32D2D', padding: '0.75rem', borderRadius: '8px', fontSize: '0.875rem', marginBottom: '0.5rem' },
-  footer: { textAlign: 'center', marginTop: '1rem', fontSize: '0.875rem', color: '#666' },
 }

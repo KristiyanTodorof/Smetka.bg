@@ -1,31 +1,31 @@
-Сметки.bg
+⚡ Smetki.bg — Utility Bill Analyzer with AI
 
-Уеб приложение за анализ на комунални сметки с AI асистент. Помага на потребителите да разберат защо сметките им за ток, вода и газ се повишават или намаляват.
-
-
-🚀 Функционалности
+A web application for analyzing utility bills (electricity, water, gas) with a built-in AI assistant. Helps users understand why their bills are increasing or decreasing and provides personalized saving tips.
 
 
-Регистрация и вход — защитени акаунти с JWT автентикация
-Въвеждане на сметки — ток, вода и газ по месеци
-Графики — визуална история на разходите за последните 12 месеца
-AI Асистент — анализ и обяснения на аномалии в сметките, базиран на Claude AI
-Soft delete — сметките не се изтриват физически, само се маркират
-История на разговора — AI асистентът помни контекста между сесиите
+🚀 Features
+
+
+Registration & Login — secure accounts with JWT authentication
+Bill Tracking — add electricity, water and gas bills by month
+Charts — visual 12-month history of expenses
+AI Assistant — powered by Claude AI, analyzes anomalies and explains bill changes
+Soft Delete — bills are never permanently deleted, only marked as removed
+Conversation History — the AI remembers context between sessions
 
 
 
-🛠️ Технологии
+🛠️ Tech Stack
 
 Backend
 
 
 ASP.NET Core 8 — Web API
 Entity Framework Core 8 — ORM
-SQL Server — база данни
-JWT — автентикация
-BCrypt — хеширане на пароли
-Claude AI (Anthropic) — AI анализ на сметки
+PostgreSQL — database
+JWT — authentication
+BCrypt — password hashing
+Claude AI (Anthropic) — AI bill analysis
 
 
 Frontend
@@ -33,14 +33,17 @@ Frontend
 
 React 18 — UI
 Vite — build tool
-React Router — навигация
-Axios — HTTP заявки
-Recharts — графики
+Tailwind CSS — styling
+React Router — navigation
+Axios — HTTP requests
+Recharts — charts
 
 
-Архитектура
+Architecture
 
 
-Repository Pattern — абстракция на достъпа до данни
-Unit of Work — управление на транзакции
-Clean Architecture — разделение на слоевете
+Repository Pattern — data access abstraction
+Unit of Work — transaction management
+Clean Architecture — separation of concerns
+
+

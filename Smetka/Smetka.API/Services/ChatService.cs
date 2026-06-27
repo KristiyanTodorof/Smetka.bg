@@ -1,7 +1,6 @@
 ﻿using System.Text;
 using System.Text.Json;
 using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Smetka.API.DTOs.Chat;
 using Smetka.Core.Interfaces;
 using Smetka.Data.Entities;
@@ -13,19 +12,32 @@ public class ChatService
     private readonly IUnitOfWork _uow;
     private readonly BillService _billService;
     private readonly IConfiguration _config;
-    private readonly HttpClient _http;
+    private readonly System.Net.Http.HttpClient _http;
 
     private const string SystemPrompt = """
-        Ти си AI асистент за анализ на комунални сметки — ток, вода и газ.
-        Помагаш на хората да разберат защо сметките им се повишават или намаляват.
-
-        Твоите задачи:
-        1. Обясняваш причините за промени (сезонност, тарифни промени, навици, уреди).
-        2. Даваш конкретни съвети за намаляване на разходите.
-        3. Предупреждаваш при необичайни аномалии.
-
-        Говори кратко и ясно на разбираем български. Без технически жаргон.
-
+        Ти си експертен AI асистент за анализ на комунални сметки в България — ток, вода и газ.
+        
+        ТВОИТЕ ВЪЗМОЖНОСТИ:
+        1. Анализираш сметките на потребителя и обясняваш аномалии.
+        2. Когато потребителят спомене конкретни уреди (климатик, хладилник, пералня и т.н.),
+           търсиш в интернет реалната им консумация и изчисляваш колко струват на месец.
+        3. Търсиш актуални тарифи на българските доставчици (ЧЕЗ, ЕнергоПро, EVN, ВиК и т.н.).
+        4. Даваш конкретни съвети базирани на реални данни — не общи приказки.
+        5. Сравняваш разходите със средните стойности за България.
+        6. Предлагаш конкретни начини за пестене с реални числа (напр. "ще спестиш ~15€/месец").
+        
+        КОГАТО ПОТРЕБИТЕЛЯТ СПОМЕНЕ УРЕДИ:
+        - Потърси реалната консумация на конкретния модел в интернет
+        - Изчисли месечния разход базиран на типично ползване
+        - Сравни с общата сметка и посочи кое харчи най-много
+        - Предложи по-икономични алтернативи ако има такива
+        
+        ФОРМАТ НА ОТГОВОРА:
+        - Говори на ясен, разбираем български
+        - Използвай конкретни числа и евро (€)
+        - Структурирай отговора с точки когато изброяваш
+        - Бъди конкретен, не общ
+        
         Данни за сметките на потребителя:
         {BILL_CONTEXT}
         """;
@@ -62,12 +74,20 @@ public class ChatService
             .Append(new { role = "user", content = userMessage })
             .ToList();
 
-        // 4. Изпращаме към Anthropic API
+        // 4. Изпращаме към Anthropic API с Web Search
         var requestBody = new
         {
             model = "claude-sonnet-4-6",
-            max_tokens = 1024,
+            max_tokens = 2048,
             system = systemPrompt,
+            tools = new[]
+            {
+                new
+                {
+                    type = "web_search_20250305",
+                    name = "web_search"
+                }
+            },
             messages
         };
 
@@ -81,12 +101,22 @@ public class ChatService
 
         var responseJson = await response.Content.ReadAsStringAsync();
         using var doc = JsonDocument.Parse(responseJson);
-        var reply = doc.RootElement
-            .GetProperty("content")[0]
-            .GetProperty("text")
-            .GetString() ?? "Съжалявам, възникна грешка.";
 
-        // 5. Запазваме и двете съобщения в историята
+        // 5. Извличаме текстовия отговор (може да има и tool_use блокове)
+        var reply = string.Empty;
+        foreach (var block in doc.RootElement.GetProperty("content").EnumerateArray())
+        {
+            if (block.GetProperty("type").GetString() == "text")
+            {
+                reply = block.GetProperty("text").GetString() ?? string.Empty;
+                break;
+            }
+        }
+
+        if (string.IsNullOrEmpty(reply))
+            reply = "Съжалявам, възникна грешка при обработката.";
+
+        // 6. Запазваме и двете съобщения в историята
         await _uow.ChatMessages.AddAsync(new ChatMessage
         {
             UserId = userId,
